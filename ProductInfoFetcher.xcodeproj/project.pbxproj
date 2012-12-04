@@ -10,6 +10,7 @@
 		299074F1166D8AFA00F98E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299074F0166D8AFA00F98E87 /* Foundation.framework */; };
 		299074F4166D8AFA00F98E87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 299074F3166D8AFA00F98E87 /* main.m */; };
 		299074F8166D8AFA00F98E87 /* ProductInfoFetcher.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 299074F7166D8AFA00F98E87 /* ProductInfoFetcher.1 */; };
+		29907500166D8C5200F98E87 /* ProductInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 299074FF166D8C5200F98E87 /* ProductInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		299074F3166D8AFA00F98E87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		299074F6166D8AFA00F98E87 /* ProductInfoFetcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProductInfoFetcher-Prefix.pch"; sourceTree = "<group>"; };
 		299074F7166D8AFA00F98E87 /* ProductInfoFetcher.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProductInfoFetcher.1; sourceTree = "<group>"; };
+		299074FE166D8C5200F98E87 /* ProductInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductInfo.h; sourceTree = "<group>"; };
+		299074FF166D8C5200F98E87 /* ProductInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				299074F3166D8AFA00F98E87 /* main.m */,
+				299074FE166D8C5200F98E87 /* ProductInfo.h */,
+				299074FF166D8C5200F98E87 /* ProductInfo.m */,
 				299074F7166D8AFA00F98E87 /* ProductInfoFetcher.1 */,
 				299074F5166D8AFA00F98E87 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				299074F4166D8AFA00F98E87 /* main.m in Sources */,
+				29907500166D8C5200F98E87 /* ProductInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
